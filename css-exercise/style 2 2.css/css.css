@@ -1,0 +1,41 @@
+html{
+    font-size: 18pt;
+}
+body {
+    background: linear-gradient(to right, rgb(81, 97, 220), rgb(226, 226, 255));
+
+    width: 95vw ;
+    font-size: 18pt ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{font-size: 18pt}
+h1,h2,h3,h4 {
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.green {
+    color: rgb(50, 0, 104);
+}
+.black {
+    color: rgb(0, 0, 0);
+}
+#first{
+    font-weight: bold;
+}
+p {  
+    color: rgb(78, 76, 112);
+    width: 95vw;
+    /*background-color: rgb(216, 230, 253); */
+
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .right {
+    float: right;
+  }
+  
+  
+  a {
+    color: rgb(0, 0, 0);  
+  }

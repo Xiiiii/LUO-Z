@@ -1,0 +1,37 @@
+html{
+    font-size: 14pt;
+}
+body {
+    background-color: rgb(250, 215, 249);
+    width: 60vw ;
+    font-size: 14pt ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{font-size: 14pt}
+h1,h2,h3,h4 {
+    font-size: 1.5rem;
+    color: rgb(37, 0, 160);
+    font-family:inherit
+    
+}
+.green {
+    color: rgb(69, 117, 162);
+}
+.name {
+    color: rgb(69, 117, 162);
+    font-size: 2rem;
+    font-family:monospace
+}
+#first{
+    font-weight: bold;
+}
+p {  
+    color: rgb(69, 117, 162);
+    width: 60vw;
+    /* background-color: rgb(154, 187, 236); */
+
+  }
+  
+  a {
+    color: rgb(37, 0, 160); /* the text color is red */
+  }

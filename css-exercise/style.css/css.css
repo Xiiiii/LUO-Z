@@ -1,0 +1,34 @@
+html{
+    font-size: 18pt;
+}
+body {
+    background-color: rgb(205, 203, 236);
+    width: 60vw ;
+    font-size: 18pt ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article{font-size: 18pt}
+h1,h2,h3,h4 {
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.green {
+    color: white;
+}
+#first{
+    font-weight: bold;
+}
+p {  
+    color: rgb(255, 255, 255);
+    width: 60vw;
+    /* background-color: rgb(154, 187, 236); */
+
+  }
+.underline {
+  text-decoration: underline;
+}
+
+
+  a {
+    color: rgb(0, 0, 0); /* the text color is red */
+  }
