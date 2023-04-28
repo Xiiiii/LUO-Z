@@ -1,0 +1,233 @@
+html{
+    font-size: 18pt;
+}
+
+body  {
+   padding: 0p;
+   margin: 0px
+  }
+  .image-container {
+    position: relative;
+  }
+  img {
+    position: absolute;
+    z-index: -1;
+  }
+  #vase{
+    width:0;
+    height: 0;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+    border-top: 0px;
+    border-right:70px solid transparent;
+    border-left:70px solid transparent;
+    border-bottom:140px solid forestgreen;
+    top:880px;
+    left:390px
+  }#circlebody2 {
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    position:absolute;
+    top:810px;
+    left:370px;
+    background: forestgreen}
+  #circlebody {
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    position:absolute;
+    top:810px;
+    left:370px;
+    background: forestgreen;
+    animation-name: stretch;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  transition: background-color 3s ease-in-out 1s;
+  }
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: rgb(43, 0, 255);
+      border-radius: 100%;
+    }
+    50% {
+      background-color: rgb(255, 238, 0);
+    }
+    }
+  #orange1 {
+    width:130px;
+    height: 130px;
+    border-radius: 65px / 60px;
+    position:absolute;
+    top:810px;
+    left:580px;
+    background: orange;
+  }
+  #paper-inside {
+    width:30px;
+    height: 20px;
+    border-radius: 15px / 10px;
+    position:absolute;
+    top:890px;
+    left:650px;
+    background: rgb(52, 42, 180);;
+  }
+  #orange1:hover{
+    transform:scale(1.2, 1.4)
+  }
+
+  #orange2 {
+    width:150px;
+    height: 140px;
+    border-radius: 75px / 65px;
+    position:absolute;
+    top:800px;
+    left:690px;
+    background: orange;
+  }
+  #paper-inside2 {
+    width:30px;
+    height: 35px;
+    border-radius: 15px / 17px;
+    position:absolute;
+    top:990px;
+    left:780px;
+    background: rgb(52, 42, 180);;
+  }
+  #orange2:hover{
+    transform:scale(1.2, 1.4)
+  }
+  #orange3 {
+    width:150px;
+    height: 140px;
+    border-radius: 75px / 65px;
+    position:absolute;
+    top:900px;
+    left:700px;
+    background: orange;
+  }
+  #orange3:hover{
+  transform:scale(1.2, 1.4)
+  }
+  #orange4 {
+    width:150px;
+    height: 130px;
+    border-radius: 75px / 65px;
+    position:absolute;
+    top:840px;
+    left:980px;
+    background: orange;
+  }
+  #orange4:hover{
+    transform:scale(1.2, 1.4)
+  }
+  #triangle {
+    width:0;
+    height: 0;
+    position: absolute;
+    bottom: 160px;
+    left: 300px;
+    border-top: 330px solid forestgreen;
+    border-right: 70px solid transparent;
+    border-left:70px solid transparent;
+    border-bottom:0px;
+    top:650px;
+    left:390px
+}
+#mouth {
+  width: 80px;
+  height: 40px;
+  background: #adf7fe;
+  position:absolute;
+  top:690px;
+  left:300px
+}
+#neck {
+  width: 50px;
+  height: 40px;
+  background: #adf7fe;
+  position:absolute;
+  top:720px;
+  left:315px
+}
+#body {
+  width: 138px;
+  height: 170px;
+  background: #adf7fe;
+  position:absolute;
+  top:775px;
+  left:271px
+}
+#line {
+  width: 18px;
+  height: 580px;
+  transform: rotate(-15deg); 
+  background: #000000;
+  position:absolute;
+  top:220px;
+  left:390px
+}
+#line2 {
+  width: 18px;
+  height: 580px;
+  transform: rotate(8deg); 
+  background: #000000;
+  position:absolute;
+  top:220px;
+  left:490px
+}
+#line2:hover{
+  transform: translate(0px, -50px);}
+#line3 {
+  width: 18px;
+  height: 580px;
+  transform: rotate(3deg); 
+  background: #000000;
+  position:absolute;
+  top:240px;
+  left:465px
+}
+#line3:hover{
+  transform: translate(0px, -40px);}
+#line4 {
+  width: 18px;
+  height: 580px;
+  transform: rotate(-1deg); 
+  background: #000000;
+  position:absolute;
+  top:240px;
+  left:445px
+}
+#line4:hover{
+  transform: translate(0px, -30px);}
+#line5 {
+  width: 18px;
+  height: 580px;
+  transform: rotate(-10deg); 
+  background: #000000;
+  position:absolute;
+  top:250px;
+  left:420px
+}
+#line5:hover{
+  transform: translate(0px, -30px);}
+#glass{
+  width:0;
+  height: 0;
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
+  border-top: 0px;
+  border-right:70px solid transparent;
+  border-left:70px solid transparent;
+  border-bottom:75px solid #adf7fe;
+  top:700px;
+  left:270px
+}
