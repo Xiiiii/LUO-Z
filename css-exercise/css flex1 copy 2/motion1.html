@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex&Grid Demo3</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <head>
+      <title>animation demo2</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <style>
+    body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+    }
+    .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+     background-color: #4a53ff;
+     color: #fff;
+    }
+    .logo {
+     font-size: 2rem;
+     font-weight: bold;
+    }
+    .nav {
+     display: flex;
+     gap: 1rem;
+    }
+    .nav-link {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: bold;
+     transition: color 0.3s ease-out;
+    }
+    .nav-link:hover {
+     color: #f1c40f;
+    }
+    .container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 1rem;
+     padding: 1rem;
+    }
+    .item {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #f9f9f9;
+     padding: 1rem;
+     border-radius: 5px;
+     box-shadow: 0 0 5px rgba(0,0,0,0.3);
+     transition: transform 0.3s ease-out;
+     cursor: pointer;
+    }
+    .item:hover {
+     transform: scale(1.1);
+    }
+    .item img {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 1rem;
+    }
+    .item h3 {
+     margin: 0;
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-align: center;
+    }
+    .item p {
+     margin: 0;
+     font-size: 1rem;
+     text-align: center;
+    }
+    .footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     background-color: #4a53ff;
+     color: #fff;
+    }
+   </style>
+  </head>
+  <body>
+   <header class="header">
+    <div class="logo">Hello!</div>
+    <nav class="nav">
+     <a href="#" class="nav-link">home</a>
+     <a href="#" class="nav-link">about</a>
+     <a href="#" class="nav-link">works</a>
+    </nav>
+   </header>
+   <main class="container">
+    <div class="item">
+     <h3>1</h3>
+    </div>
+    <div class="item">
+     <h3>2</h3>
+    </div>
+    <div class="item">
+
+      <h3>3</h3>
+     </div>
+     <div class="item">
+      <h3>4</h3>
+     </div>
+     <div class="item">
+
+      <h3>5</h3>
+     </div>
+     <div class="item">
+      <h3>6</h3>
+     </div>
+    <div class="item">
+    <h3>7</h3>
+    </div>
+    <div class="item">
+      <h3>8</h3>
+
+     </div>
+     <div class="item">
+      <h3>9</h3>
+     </div>
+     <div class="item">
+       <h3>10</h3>
+      </div>
+      <div class="item">
+       <h3>11</h3>
+      </div>
+      <div class="item">
+       <h3>12</h3>
+      </div>
+      <div class="item">
+       <h3>13</h3>
+      </div>
+     <div class="item">
+
+     <h3>14</h3>
+    </div>
+    <div class="item">
+     <h3>15</h3>
+
+    </div>
+   <div class="item">
+   <h3>16</h3>
+
+  </div>
+    </div>
+   </main>
+   <footer class="footer">
+    LUO · 2023 
+   </footer>
+
+  
+
+ 
+ <a href="../index.html">back</a >
+</body>
+</html>
