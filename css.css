@@ -26,36 +26,4 @@ body {
     bottom: 0px; 
     right: 300px;
   }
-  .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    height: 800px;
-    position: relative;
-    margin: auto;
-    border: 0px solid black;
-    overflow: hidden;
-    }  
-    .image {
-        flex: 0 0 25%; 
-      height: 100px; 
-      border: 1px solid black;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      } 
-    .image-container img {    
-    position: relative;
-    z-index: -1;
-    max-width: 100%;
-    height: auto;
-    width: 150px;
-     }
-      .random-image {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        pointer-events: none;
-      }
-    
+ 
